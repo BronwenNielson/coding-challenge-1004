@@ -28,14 +28,13 @@
     display: inline-block;
     width: 40px;
     height: 20px;
-    background: blue;
+    background: rgb(106,113,220);
+    background: linear-gradient(270deg, rgba(106,113,220,1) 0%, rgba(139,146,232,1) 35%, rgba(159,165,237,1) 100%);;
     position: relative;
     cursor: pointer;
     margin-left: 0px;
     border-radius: 10px;
 }
-
-
 
 label::before {
     content: "";
@@ -49,7 +48,24 @@ label::before {
     transition: 0.4s;
 }
 
-
 input:checked + label::before {
     left: 23px;
   }
+
+.box2 {
+    background: rgb(106,113,220);
+    background: linear-gradient(322deg, rgba(106,113,220,1) 0%, rgba(139,146,232,1) 35%, rgba(159,165,237,1) 100%);
+}
+
+.box2 button {
+    color: #9f9dbf;
+}
+
+.box1 button {
+    background: rgb(106,113,220);
+    background: linear-gradient(270deg, rgba(106,113,220,1) 0%, rgba(139,146,232,1) 35%, rgba(159,165,237,1) 100%);
+}
+
+header {
+    color: #727280;
+}

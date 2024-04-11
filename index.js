@@ -1,9 +1,3 @@
-const buttons = document.querySelectorAll ('button')
-buttons.forEach((button) => {
-    button.addEventListener('click', () => {
-        console.log('clicked')
-    })
-});
 
 const basic = 19.99
 const professional = 24.99
